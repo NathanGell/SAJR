@@ -1,0 +1,58 @@
+.head-line {
+	background-color: #34495e;
+	color: #fff;
+}
+
+.container {
+	padding: 25px;
+}
+
+.jarryd-pic {
+	margin-top: 15px;
+}
+
+.quote-line {
+    background-color: #ecf0f1;
+    padding: 15vw;
+}
+
+.quote-box {
+    width: 70%;
+    margin: auto;
+    height: auto;
+    font-size: 4vw;
+    text-align: center;
+    
+}
+
+.social-line {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+.social-box {
+    width: 50%;
+    text-align: center;
+}
+
+.social-box i {
+    padding: 5px;
+    color: #fff;
+}
+
+.social-box i:hover {
+    color: #34495e;
+}
+
+.btn-specs {
+	background-color: #e67e22;
+	color: #fff;
+	font-size: 3vw;
+	padding: 2%;
+    margin-top:  4vw;
+}
+
+footer {
+    background-color: #34495e;
+    height: 10vh;
+}
