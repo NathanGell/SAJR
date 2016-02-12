@@ -1,0 +1,86 @@
+<html ng-app="quoteMachine">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <title>Super Awesome Jarryd Rogers</title>
+</head>
+
+<body ng-controller="QuoteController as quoteCtrl">
+    
+	<!-- NAME AND PICTURE -->
+	<section class="head-line">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1>Super<br/>Awesome<br/>Jarryd<br/>Rogers</h1>	
+				</div>
+				<hr/>
+				<div class="col-sm-4">
+					<h3>The things you didn't know about him. But probably wish you did. And now you do.</h3>
+				</div>
+				<div class="col-sm-4">
+					<img src="https://dl.dropboxusercontent.com/s/ezx4or0xbszeksx/jarrydrogers.jpg?dl=0" class="image-responsive center-block img-circle jarryd-pic"/>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- QUOTE APP -->
+    <section class="quote-app">
+
+        <section class="quote-line">
+            <div class="container-fluid">
+                
+                <!-- QUOTE -->
+                <div class="quote-box" id="sharetext">
+                    <span ng-hide="quote">
+                    <i class="fa fa-hand-o-down fa-3x"></i>
+                    </span>
+                    {{quote}}
+                </div>
+                
+                <!-- BUTTON-->
+                <div class="container-fluid text-center">
+                    <button ng-click="quoteCtrl.newQuote()" class="btn btn-lg btn-specs">Get Super Knowsy</button>
+                </div>
+                
+            </div>
+        </section>
+        
+    </section>
+    
+    <!-- SOCIAL -->
+    <section class="social-line center-block">
+    
+    <div class="container social-box">
+        <h2>Oh please share with your friends</h2>
+        <a href="https://twitter.com/intent/tweet?text=s"><i class="fa fa-twitter fa-3x"></i></a>
+        <a href="#"><i class="fa fa-facebook fa-3x"></i></a>
+    </div>
+
+    </section>
+	<script>
+
+</script>
+    <footer class="container-fluid">
+        
+    </footer>
+    
+</body>
+
+    
+    
+    
+    
+    
+    
+    
+</html>
